@@ -343,15 +343,13 @@ Contributions, issues and feature requests are welcome!
 
 <div align="center">
 
-## Rahul Khawashi
+## Rahul Khawshi
 
 [![GitHub](https://img.shields.io/badge/GitHub-rahulkhawashi-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rahulkhawashi)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Rahul%20Khawashi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahulkhawshi)
+
 [![LeetCode](https://img.shields.io/badge/LeetCode-rahulkhawshi28-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/rahulkhawshi28/)
-
-**Passionate about Data Analytics • Machine Learning • Python**
-
-⭐ *If you found this project useful, consider giving it a star!*
 
 Made with ❤️ and Python
 
