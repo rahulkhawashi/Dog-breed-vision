@@ -343,11 +343,31 @@ Contributions, issues and feature requests are welcome!
 
 <div align="center">
 
-**Rahul Khawashi**
+<h3>Rahul Khawashi</h3>
 
-[![GitHub](https://img.shields.io/badge/GitHub-rahulkhawashi-181717?style=for-the-badge&logo=github)](https://github.com/rahulkhawashi)
+<p>
+  <a href="https://github.com/rahulkhawashi">
+    <img src="https://img.shields.io/badge/GitHub-rahulkhawashi-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 
-*Built with ❤️ and Python*
+  <a href="https://www.linkedin.com/in/rahulkhawshi">
+    <img src="https://img.shields.io/badge/LinkedIn-Rahul%20Khawashi-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://leetcode.com/u/rahulkhawshi28/">
+    <img src="https://img.shields.io/badge/LeetCode-rahulkhawshi28-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+</p>
+
+<p>
+  <i>Passionate about Data Analytics, Machine Learning, and Python Development.</i>
+</p>
+
+<p>
+  ⭐ If you found this project useful, consider giving it a star!
+</p>
+
+### ❤️ Built with Python
 
 </div>
 
