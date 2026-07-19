@@ -278,11 +278,19 @@ predict_breed("my_dog.jpg", model, dog_names)
 ```
 Dog-breed-vision/
 │
-├── 📓 dog_visionproject.ipynb    ← Main project notebook
-│                                    (Data loading, model training,
-│                                     evaluation, predictions)
+├── 📓 dog_visionproject.ipynb          ← Main project notebook
+│                                          (Data loading, model training,
+│                                           evaluation, predictions)
 │
-└── 📄 README.md                  ← You are here!
+├── 📁 model/
+│   └── dog_vision_full_image_set_mobilenet_v2_Adam.joblib
+│                                          ← Trained MobileNetV2 model (saved via joblib)
+│
+├── 📁 Kaggle Submission/
+│   └── full_model_prediction_submission_mobilenetv2.zip
+│                                          ← Zipped predictions formatted for Kaggle submission
+│
+└── 📄 README.md                         ← You are here!
 ```
 
 The entire project lives in a single, well-structured Jupyter notebook covering:
