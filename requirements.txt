@@ -7,3 +7,11 @@ pillow>=10.3.0
 numpy>=1.26.0
 joblib>=1.4.0
 python-dotenv>=1.0.0
+
+# ML Model Training & Evaluation (mlops)
+mlflow>=2.0.0
+pandas
+scikit-learn
+matplotlib
+tensorflow-hub
+keras
