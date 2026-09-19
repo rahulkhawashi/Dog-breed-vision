@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+venv/
+scratch/
+test_dog.jpg
+*.joblib
+*.h5

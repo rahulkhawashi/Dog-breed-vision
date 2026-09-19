@@ -1,0 +1,962 @@
+{
+  "Affenpinscher": {
+    "origin": "Germany & France",
+    "group": "Toy / Terrier",
+    "temperament": "Confident, comical, affectionate, stubborn",
+    "physical_traits": "Wiry black or dark coat, monkey-like facial appearance with a prominent chin and mustache, compact frame.",
+    "specialty": "Originally bred as 17th-century kitchen and stable ratters; nicknamed the 'Monkey Terrier' (Affe = ape/monkey in German) due to its flat, primate-like facial expressions.",
+    "care_notes": "Prone to brachycephalic airway syndrome; requires regular hand-stripping or grooming to maintain the wiry coat."
+  },
+  "Afghan Hound": {
+    "origin": "Afghanistan",
+    "group": "Hound (Sighthound)",
+    "temperament": "Aloof, independent, dignified, fiercely loyal once bonded",
+    "physical_traits": "Flowing, fine-textured coat, tall slender build, distinct topknot, curved ring tail.",
+    "specialty": "Capable of dramatic acceleration and agility across rocky mountain terrains; historically hunted leopards, gazelles, and hares by sight.",
+    "care_notes": "Demands intensive coat grooming (several hours weekly) and secure running spaces due to high prey drive."
+  },
+  "African Hunting Dog": {
+    "origin": "Sub-Saharan Africa",
+    "group": "Wild Canid (Lycaon pictus)",
+    "temperament": "Extremely social, pack-driven, communicative",
+    "physical_traits": "Mottled tricolor coat (no two dogs have identical patterns), large rounded bat-like ears, four-toed paws (lacking dewclaws).",
+    "specialty": "Possesses one of the highest hunting success rates in the animal kingdom (up to 80%) via synchronized pack endurance coursing.",
+    "care_notes": "Not a domestic dog breed; strictly a protected wild species with complex social hierarchies."
+  },
+  "Airedale": {
+    "origin": "United Kingdom (Yorkshire)",
+    "group": "Terrier",
+    "temperament": "Clever, outgoing, courageous, alert",
+    "physical_traits": "Largest of all terriers, dense wiry black-and-tan coat, long head, erect folded ears.",
+    "specialty": "Known as the 'King of Terriers'; served extensively in World War I as messenger and sentry dogs carrying crucial dispatches across battlefields.",
+    "care_notes": "High mental and physical stamina; needs regular vigorous runs and firm, varied obedience training."
+  },
+  "American Staffordshire Terrier": {
+    "origin": "United States",
+    "group": "Terrier",
+    "temperament": "Courageous, good-natured, deeply loyal, people-oriented",
+    "physical_traits": "Broad skull, heavy jaw, short glossy coat, powerful muscular frame.",
+    "specialty": "Notable strength-to-weight ratio coupled with remarkable affinity for human companionship; distinguished from the APBT by AKC show conformation standards.",
+    "care_notes": "Requires early socialization with other canines and robust interactive chew toys due to jaw strength."
+  },
+  "Appenzeller": {
+    "origin": "Switzerland",
+    "group": "Herding / Working",
+    "temperament": "Energetic, vigilant, intelligent, suspicious of strangers",
+    "physical_traits": "Tricolor (black/havana brown with rust and white markings), compact muscular body, ring tail carried tightly over the back.",
+    "specialty": "Traditional Alpine cattle herder and drover capable of managing stock on steep, rocky gradients with relentless agility.",
+    "care_notes": "Demands an active, working lifestyle; will invent destructive jobs if left understimulated."
+  },
+  "Australian Terrier": {
+    "origin": "Australia",
+    "group": "Terrier",
+    "temperament": "Spirited, affectionate, determined, observant",
+    "physical_traits": "Rough, weather-resistant blue-and-tan or red coat with a distinct soft neck ruff and topknot; short-legged build.",
+    "specialty": "The first native breed developed in Australia; bred to eradicate destructive vermin and small venomous snakes on outback stations.",
+    "care_notes": "Strong hunting instinct; should be exercised on leash or within rodent-secure fencing."
+  },
+  "Basenji": {
+    "origin": "Central Africa (Congo Basin)",
+    "group": "Hound (Sighthound/Scenthound)",
+    "temperament": "Independent, inquisitive, cat-like, clean",
+    "physical_traits": "Wrinkled forehead, tightly curled tail, fine silky coat, prick ears.",
+    "specialty": "The famous 'barkless dog'; emits a yodel-like sound called a 'baroo' due to a flat laryngeal ventricle, and grooms itself meticulously like a feline.",
+    "care_notes": "Very low odor and minimal shedding, but extremely escape-prone and independent during recall."
+  },
+  "Basset": {
+    "origin": "France",
+    "group": "Hound (Scenthound)",
+    "temperament": "Placid, patient, affectionate, doggedly persistent",
+    "physical_traits": "Heavy-boned, elongated body, short bowed legs, loose skin folds, pendulous ears.",
+    "specialty": "Second only to the Bloodhound in olfactory acuity; trailing scent low to the ground with oversized ears that sweep scents directly toward the nose.",
+    "care_notes": "Prone to ear infections, bloat, and spinal strain; avoid excessive jumping off furniture."
+  },
+  "Beagle": {
+    "origin": "United Kingdom",
+    "group": "Hound (Scenthound)",
+    "temperament": "Merry, friendly, scent-obsessed, vocal",
+    "physical_traits": "Compact, square-jawed, medium build, white-tipped tail (the 'flag' for high-grass visibility), tricolor or lemon-and-white coat.",
+    "specialty": "Exceptional pack-hunting scent abilities; widely deployed at international airports worldwide to detect contraband agricultural imports.",
+    "care_notes": "Can follow a scent trail for miles without heed; voice features a distinct musical three-way bay/howl."
+  },
+  "Bedlington Terrier": {
+    "origin": "United Kingdom (Northumberland)",
+    "group": "Terrier",
+    "temperament": "Gentle, spirited, playful, protective",
+    "physical_traits": "Lamb-like silhouette, pear-shaped head with silky topknot, arched back, crisp non-shedding curly coat.",
+    "specialty": "Bred to pursue badgers and rats in coal mines; possesses blistering coursing speed matching sighthounds when sprinting.",
+    "care_notes": "Genetically predisposed to Copper Toxicosis (hepatic copper storage disease); coat requires scissor styling."
+  },
+  "Bernese Mountain Dog": {
+    "origin": "Switzerland",
+    "group": "Working",
+    "temperament": "Gentle, calm, eager to please, loyal",
+    "physical_traits": "Large, thick tricolor double coat (jet black, rich rust, pure white blaze), broad chest, expressive dark eyes.",
+    "specialty": "All-around Alpine farm utility dog used for drafting heavy milk and cheese carts to market and watching farmsteads.",
+    "care_notes": "Heat-sensitive with a relatively short average lifespan (6–8 years); heavy seasonal shedder."
+  },
+  "Black-And-Tan Coonhound": {
+    "origin": "United States",
+    "group": "Hound (Scenthound)",
+    "temperament": "Easygoing, tenacious, vocal, friendly",
+    "physical_traits": "Coal-black coat with rich tan points, long pendulous ears hanging well below the snout, deep chest.",
+    "specialty": "Cold-nosed tracker capable of picking up faded scent trails that are days old to tree nocturnal raccoons and opossums.",
+    "care_notes": "Requires significant scent enrichment; voice carries over miles via a booming, resonating bay."
+  },
+  "Blenheim Spaniel": {
+    "origin": "United Kingdom",
+    "group": "Toy",
+    "temperament": "Gentle, affectionate, sociable, playful",
+    "physical_traits": "Chestnut-red patches on a pearly white ground; often exhibits the historic 'lozenge' thumbprint mark on top of the skull.",
+    "specialty": "Named after Blenheim Palace by the 1st Duke of Marlborough, who selected this specific color pattern for lap and field companions.",
+    "care_notes": "Prone to Mitral Valve Disease (MVD) and syringomyelia; requires regular heart screenings."
+  },
+  "Bloodhound": {
+    "origin": "Belgium / France",
+    "group": "Hound (Scenthound)",
+    "temperament": "Mild-mannered, relentless on a trail, sensitive, stubborn",
+    "physical_traits": "Massive loose skin folds, deep sunken eyes, exceedingly long drooping ears, powerful muscular build.",
+    "specialty": "Olfactory capability containing over 300 million scent receptors; trailing results are legally admissible in many courts of law.",
+    "care_notes": "Heavy drooler; requires daily cleaning of deep facial and ear wrinkles to prevent moisture dermatitis."
+  },
+  "Bluetick": {
+    "origin": "United States",
+    "group": "Hound (Scenthound)",
+    "temperament": "Bold, tenacious, deeply affectionate with its human pack",
+    "physical_traits": "Dark blue coat pattern mottled with thick black ticking and tan points; athletic, square frame.",
+    "specialty": "Cold-nosed trailing hound with exceptional focus, traditionally used to pursue nocturnal game, wild boar, and cougars.",
+    "care_notes": "High exercise demands; will relentlessly bay at fence lines if it catches neighborhood scent lines."
+  },
+  "Border Collie": {
+    "origin": "Scotland / England border",
+    "group": "Herding",
+    "temperament": "Hyper-intelligent, energetic, obsessive, driven",
+    "physical_traits": "Athletic, medium build, smooth or rough coat, intense piercing stare ('the eye').",
+    "specialty": "Widely ranked as the most intelligent dog breed; controls sheep flocks with subtle body language and an intense psychological stare.",
+    "care_notes": "Requires intensive mental work (agility, complex trick training, herding); easily develops neurotic behaviors if idle."
+  },
+  "Border Terrier": {
+    "origin": "Scotland / England border",
+    "group": "Terrier",
+    "temperament": "Hardy, plucky, affectionate, even-tempered",
+    "physical_traits": "Otter-like head shape, thick weather-hardy wiry coat, loose pelt, carrot-shaped tail.",
+    "specialty": "Bred to bolt foxes from underground burrows while possessing long enough legs to run alongside horses and foxhound packs.",
+    "care_notes": "Tough hide designed to resist thorns and bites; requires hand-stripping twice a year."
+  },
+  "Borzoi": {
+    "origin": "Russia",
+    "group": "Hound (Sighthound)",
+    "temperament": "Quiet, aristocratic, independent, gentle",
+    "physical_traits": "Long, narrow head, arched back, silky wavy coat, tall and lean greyhound-like chassis.",
+    "specialty": "Bred by Russian Tsars and aristocracy for dramatic wolf hunts across the steppes, reaching top speeds of 35-40 mph.",
+    "care_notes": "Sensitive to anesthesia; needs spacious indoor resting beds to protect lean joints."
+  },
+  "Boston Bull": {
+    "origin": "United States",
+    "group": "Non-Sporting",
+    "temperament": "Friendly, lively, polite, adaptable",
+    "physical_traits": "Distinct tuxedo-patterned coat (black, seal, or brindle with white), square head, large round dark eyes, erect ears.",
+    "specialty": "Dubbed 'The American Gentleman' for its dapper appearance and genial temperament; the official state dog of Massachusetts.",
+    "care_notes": "Brachycephalic; sensitive to temperature extremes and vigorous exertion in high humidity."
+  },
+  "Bouvier Des Flandres": {
+    "origin": "Belgium / France (Flanders)",
+    "group": "Herding",
+    "temperament": "Steady, resolute, fearless, deeply protective",
+    "physical_traits": "Heavy-boned, thick tousled double coat with beard and mustache, strong muscular jaw.",
+    "specialty": "Original Flemish cattle drover and draft dog; later proved heroic in both World Wars as an ambulance and military search dog.",
+    "care_notes": "Dense coat acts as a dirt magnet; requires substantial weekly brushing to prevent heavy matting."
+  },
+  "Boxer": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Playful, exuberant, vigilant, affectionate",
+    "physical_traits": "Square muscular build, undershot bite, tight smooth coat, high head carriage.",
+    "specialty": "Known for using its front paws extensively during play and self-defense, resembling a boxer spar; early guide dog and police pioneer.",
+    "care_notes": "High cancer and cardiomyopathy incidence; requires moderate exercise in temperate conditions."
+  },
+  "Brabancon Griffon": {
+    "origin": "Belgium",
+    "group": "Toy",
+    "temperament": "Inquisitive, cheeky, sensitive, self-important",
+    "physical_traits": "Smooth short coat (unlike rough Griffons), pouty undershot jaw, large prominent human-like eyes.",
+    "specialty": "Smooth-coated variety of the Brussels Griffon, valued for its comedic, expressive face and historical role catching stable rats.",
+    "care_notes": "Prone to eye abrasions and heat stress due to shallow orbits and short nasal passages."
+  },
+  "Briard": {
+    "origin": "France",
+    "group": "Herding",
+    "temperament": "Loyal, courageous, smart, independent-thinking",
+    "physical_traits": "Long coarse coat parted down the middle, beard, eyebrows, distinctive double dewclaws on each hind leg.",
+    "specialty": "Centuries-old flock sentinel and herder; historical records document Napoleon, Lafayette, and Thomas Jefferson admiring their devotion.",
+    "care_notes": "Double dewclaws are a breed standard requirement and must be monitored for snagging; heavy coat care."
+  },
+  "Brittany Spaniel": {
+    "origin": "France (Brittany)",
+    "group": "Sporting",
+    "temperament": "Bright, eager, tireless, sensitive",
+    "physical_traits": "Compact, leggy bird dog with an orange/liver and white coat, naturally tailless or docked short.",
+    "specialty": "Dual-purpose pointing and retrieving dog that works closer to the foot hunter than traditional pointers, possessing exceptional scent tracking.",
+    "care_notes": "Responds poorly to harsh discipline; requires gentle, positive training combined with high-cadence field workouts."
+  },
+  "Bull Mastiff": {
+    "origin": "United Kingdom",
+    "group": "Working",
+    "temperament": "Fearless, quiet, confident, protective",
+    "physical_traits": "Massive bone structure, broad wrinkled skull, dark mask, short dense fawn/red/brindle coat.",
+    "specialty": "The 'Gamekeeper's Night Dog'; engineered (60% Mastiff, 40% Bulldog) to silently stalk, pin, and hold poachers without mauling them.",
+    "care_notes": "Needs firm leadership from puppyhood; natural guardian that rarely barks unless a real threat is present."
+  },
+  "Cairn": {
+    "origin": "Scotland (Isle of Skye)",
+    "group": "Terrier",
+    "temperament": "Fearless, alert, cheerful, independent",
+    "physical_traits": "Harsh weather-resistant shaggy coat, wide-set eyes, upright pointed ears, compact sturdy stance.",
+    "specialty": "Bred to crawl deep into cairns (stone piles) to dispatch otters, badgers, and foxes; famously depicted by 'Toto' in The Wizard of Oz.",
+    "care_notes": "Compulsive digger; needs safe digging pits or outlets to satisfy root-hunting instincts."
+  },
+  "Cardigan": {
+    "origin": "Wales (Cardiganshire)",
+    "group": "Herding",
+    "temperament": "Loyal, sensible, affectionate, vigilant",
+    "physical_traits": "Low-slung silhouette, prominent arched fox-like brush tail, rounded large bat ears, slightly curved front legs.",
+    "specialty": "Dating back over 3,000 years with Celtic settlers; nips cattle heels and stays low to duck swinging kicks from dairy cows.",
+    "care_notes": "Long spine requires monitoring weight to prevent intervertebral disc disease (IVDD)."
+  },
+  "Chesapeake Bay Retriever": {
+    "origin": "United States (Maryland)",
+    "group": "Sporting",
+    "temperament": "Determined, protective, courageous, intelligent",
+    "physical_traits": "Harsh, oily, wavy outer coat with a dense woolly undercoat; amber eyes; colors camouflage with dead grass/sedges.",
+    "specialty": "Known to retrieve up to 200 ducks a day out of freezing, ice-choked Chesapeake waters; uniquely protective among sporting breeds.",
+    "care_notes": "Natural coat oils smell distinctly of musk and should not be stripped with excessive shampooing."
+  },
+  "Chihuahua": {
+    "origin": "Mexico",
+    "group": "Toy",
+    "temperament": "Saucy, alert, loyal, charismatic",
+    "physical_traits": "Smallest dog breed in the world; apple dome skull, luminous round eyes, large flaring ears.",
+    "specialty": "Descended from the ancient Toltec Techichi; regarded as sacred companion animals with spiritual healing roles.",
+    "care_notes": "Prone to luxating patellas, hypoglycemia in youth, and cold weather tremors; requires warm clothing in winter."
+  },
+  "Chow": {
+    "origin": "China",
+    "group": "Non-Sporting",
+    "temperament": "Aloof, cat-like, dignified, discerning",
+    "physical_traits": "Lion-like ruff, straight hocks producing a stilted gait, distinctive blue-black tongue, deep-set almond eyes.",
+    "specialty": "Versatile imperial hunting, guarding, and sledding canine dating back to the Han Dynasty; rare blue-black tongue shared only with the Shar-Pei.",
+    "care_notes": "Strict early socialization required; limited peripheral vision due to deep-set eyes means they dislike being startled."
+  },
+  "Clumber": {
+    "origin": "United Kingdom / France",
+    "group": "Sporting",
+    "temperament": "Calm, stoic, dignified, warm-hearted",
+    "physical_traits": "Heaviest of the spaniel breeds; massive head, heavy bone, low chassis, thick lemon/orange-marked white coat.",
+    "specialty": "Built for pushing through dense, impenetrable brambles to flush game birds for aristocratic shooting parties.",
+    "care_notes": "Prone to drooling, snoring, and joint strain; exercise should be steady rather than high-impact."
+  },
+  "Cocker Spaniel": {
+    "origin": "United States / United Kingdom",
+    "group": "Sporting",
+    "temperament": "Gentle, playful, happy, eager to please",
+    "physical_traits": "Lush, feathered silky coat, rounded skull, soft pleading expression, long pendant ears.",
+    "specialty": "Historically specialized in flushing the woodcock (source of the name 'Cocker'); excels in both fieldwork and obedience rings.",
+    "care_notes": "Ears require regular cleaning to avoid yeast/bacterial infections; coat requires frequent brushing."
+  },
+  "Collie": {
+    "origin": "Scotland",
+    "group": "Herding",
+    "temperament": "Gentle, devoted, responsive, protective",
+    "physical_traits": "Wedge-shaped refined head, semi-prick ears, available in Rough (long luxurious mane) and Smooth varieties.",
+    "specialty": "Legendary sheep-herding precision in rugged Scottish highlands; popularized worldwide for heroic loyalty by Albert Payson Terhune and 'Lassie'.",
+    "care_notes": "High frequency of the MDR1 gene mutation, making them hypersensitive to specific antiparasitic drugs like ivermectin."
+  },
+  "Curly-Coated Retriever": {
+    "origin": "United Kingdom",
+    "group": "Sporting",
+    "temperament": "Clever, independent, steady, loyal",
+    "physical_traits": "Solid mass of crisp, small, tight water-repellent curls covering the body except the face; deep chestnut or black.",
+    "specialty": "One of the oldest retriever breeds; renowned for swimming through icy duck marshes and drying remarkably fast.",
+    "care_notes": "Brushing frizzes the coat; needs air-drying and occasional water-misting to reform the distinct curls."
+  },
+  "Dandie Dinmont": {
+    "origin": "Scotland",
+    "group": "Terrier",
+    "temperament": "Independent, dignified, affectionate, determined",
+    "physical_traits": "Long body with an arched weasel-like top-line, very short legs, silken powder-puff topknot, large expressive eyes.",
+    "specialty": "The only breed named after a fictional character (from Sir Walter Scott's novel *Guy Mannering*); specialized in hunting otters and badgers.",
+    "care_notes": "Spinal care is essential; avoid stairs and excess jumping to protect the long back."
+  },
+  "Dhole": {
+    "origin": "Central, South, and Southeast Asia",
+    "group": "Wild Canid (Cuon alpinus)",
+    "temperament": "Highly social, cautious, coordinated",
+    "physical_traits": "Rusty-red coat, dark bushy tail, rounded ears, lacks the third lower molar tooth compared to domestic dogs.",
+    "specialty": "Communicates through distinct whistles and clucks so unique they can coordinate complex pack ambushes out of sight in thick jungle.",
+    "care_notes": "Endangered wild apex predator; completely unsuited to domestication."
+  },
+  "Dingo": {
+    "origin": "Australia",
+    "group": "Wild Canid (Canis dingo)",
+    "temperament": "Shy, alert, highly autonomous, intelligent",
+    "physical_traits": "Sandy-yellow to red coat with white paws and tail tip, flexible wrists, highly mobile head rotating nearly 180 degrees.",
+    "specialty": "Apex land predator of the Australian continent; introduced thousands of years ago, maintaining wild ecological equilibrium.",
+    "care_notes": "Wild species; possess specialized climbing and jumping abilities capable of scaling 6-foot fences easily."
+  },
+  "Doberman": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Alert, loyal, fearless, highly trainable",
+    "physical_traits": "Sleek, muscular, compact wedge body, clean lines, rust markings on black, red, blue, or fawn.",
+    "specialty": "Created by tax collector Louis Dobermann for personal defense; serves as a premier protection, sentry, and military canine.",
+    "care_notes": "Genetically predisposed to Dilated Cardiomyopathy (DCM) and von Willebrand's Disease; needs extensive early socialization."
+  },
+  "English Foxhound": {
+    "origin": "United Kingdom",
+    "group": "Hound (Scenthound)",
+    "temperament": "Sociable, gentle, stamina-loaded, pack-oriented",
+    "physical_traits": "Clean, sturdy bone structure, hard short coat, level back, hound-marked in black, white, and tan.",
+    "specialty": "Engineered for centuries to course foxes alongside mounted hunters over miles of country without slowing down.",
+    "care_notes": "Thrives best in multi-dog households or packs; rarely content as a purely sedentary house dog."
+  },
+  "English Setter": {
+    "origin": "United Kingdom",
+    "group": "Sporting",
+    "temperament": "Gentle, affectionate, athletic, mischievous",
+    "physical_traits": "Graceful carriage, long feathered coat with unique speckled patterns called 'belton' (blue, orange, tricolor).",
+    "specialty": "The 'Gentleman of the Dog World'; crouches ('sets') silently upon locating game birds to allow nets or shooters to approach.",
+    "care_notes": "Prone to congenital deafness and hip dysplasia; regular brushing preserves the long feathering."
+  },
+  "English Springer": {
+    "origin": "United Kingdom",
+    "group": "Sporting",
+    "temperament": "Friendly, playful, eager to work, obedient",
+    "physical_traits": "Medium build, fringed ears, muscular legs, weather-resistant coat with white and liver or black patches.",
+    "specialty": "Master of flushing ('springing') upland game birds from dense underbrush into flight for the hunter.",
+    "care_notes": "Subdivided into distinct Field and Show lines; Field lines have intense physical drives and require heavy exercise."
+  },
+  "Entlebucher": {
+    "origin": "Switzerland",
+    "group": "Herding",
+    "temperament": "Enthusiastic, smart, loyal, territorial",
+    "physical_traits": "Smallest Swiss Mountain Dog; compact, heavy-muscled, short tricolor coat, wedge-shaped head.",
+    "specialty": "High-speed cattle driver nicknamed the 'Laufer' (runner); operates through heel-nipping and rapid changes of direction.",
+    "care_notes": "Can become overly vocal and protective if not trained with firm structure from early months."
+  },
+  "Eskimo Dog": {
+    "origin": "United States",
+    "group": "Non-Sporting",
+    "temperament": "Alert, friendly, clever, eager",
+    "physical_traits": "Pure white or biscuit-cream double coat, black points (nose, lips, eye rims), plumed tail curved over the back.",
+    "specialty": "Gained fame in early 20th-century traveling circuses (such as Barnum & Bailey) as acrobatic, tightrope-walking performance canines.",
+    "care_notes": "Heavy seasonal shedding requires frequent deshedding brush routines; alert barker."
+  },
+  "Flat-Coated Retriever": {
+    "origin": "United Kingdom",
+    "group": "Sporting",
+    "temperament": "Optimistic, playful, affectionate, exuberant",
+    "physical_traits": "Seamless, lustrous flat coat in solid black or liver; long, clean one-piece head structure.",
+    "specialty": "The 'Peter Pan' of gun dogs; maintains energetic puppy-like enthusiasm well into adulthood while excelling in water bird work.",
+    "care_notes": "Higher statistical incidence of histiocytic sarcomas and other cancers compared to other sporting breeds."
+  },
+  "French Bulldog": {
+    "origin": "France / United Kingdom",
+    "group": "Non-Sporting",
+    "temperament": "Affectionate, quiet, humorous, companionable",
+    "physical_traits": "Compact, heavy-boned body, distinct upright 'bat ears', flat face with wrinkles, short smooth coat.",
+    "specialty": "Bred down from toy bulldogs by Nottingham lace-makers who relocated to Paris; excellent low-barking apartment companion.",
+    "care_notes": "Strictly brachycephalic; cannot swim due to dense front-heavy physiology; sensitive to overheating."
+  },
+  "German Shepherd": {
+    "origin": "Germany",
+    "group": "Herding",
+    "temperament": "Courageous, intelligent, dependable, versatile",
+    "physical_traits": "Erect ears, noble carriage, strong back, double coat in black and tan, sable, or solid black.",
+    "specialty": "Standardized by Max von Stephanitz; represents the gold standard in military, police, detection, and personal defense work globally.",
+    "care_notes": "Susceptible to hip and elbow dysplasia, degenerative myelopathy, and exocrine pancreatic insufficiency (EPI)."
+  },
+  "German Short-Haired Pointer": {
+    "origin": "Germany",
+    "group": "Sporting",
+    "temperament": "Energetic, cooperative, intelligent, bold",
+    "physical_traits": "Streamlined athletic build, liver or liver-and-white ticked short coat, broad muzzle, docked tail.",
+    "specialty": "All-in-one hunting dog engineered to point, track, and retrieve game on land or water across any terrain.",
+    "care_notes": "Extreme exercise requirements; needs hours of open-field running or scent tracking to remain calm indoors."
+  },
+  "Giant Schnauzer": {
+    "origin": "Germany (Bavaria)",
+    "group": "Working",
+    "temperament": "Loyal, imposing, spirited, deeply protective",
+    "physical_traits": "Large, powerfully built frame, harsh wiry dense coat with thick beard and dramatic eyebrows; solid black or pepper-and-salt.",
+    "specialty": "Bred up from standard schnauzers and Great Danes to drive cattle and guard Bavarian breweries and rail yards.",
+    "care_notes": "Requires strong, confident leadership and routine hand-stripping to maintain proper harsh coat texture."
+  },
+  "Golden Retriever": {
+    "origin": "United Kingdom (Scotland)",
+    "group": "Sporting",
+    "temperament": "Friendly, reliable, patient, eager to please",
+    "physical_traits": "Water-repellent golden or cream coat with feathery fringes, broad skull, friendly dark eyes.",
+    "specialty": "Bred by Lord Tweedmouth at Guisachan to retrieve wildfowl undamaged ('soft mouth'); premier guide dog and search canine.",
+    "care_notes": "High cancer rates; requires regular cardiovascular exercise and daily brush-outs during shedding seasons."
+  },
+  "Gordon Setter": {
+    "origin": "United Kingdom (Scotland)",
+    "group": "Sporting",
+    "temperament": "Confident, resolute, loyal, deliberate",
+    "physical_traits": "Heaviest of the setters; glistening coal-black coat with rich mahogany or chestnut spots, aristocratic head.",
+    "specialty": "Developed by the 4th Duke of Gordon; a methodical bird hunter capable of working grueling hours in cold Scottish weather.",
+    "care_notes": "Slower to mature mentally than other sporting breeds; deeply devoted to one family."
+  },
+  "Great Dane": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Gentle giant, friendly, patient, dependable",
+    "physical_traits": "Colossal height, square muscular frame, long narrow head, short smooth coat.",
+    "specialty": "Historically bred to bring down massive European wild boars; holds multiple world records for the tallest domestic dogs.",
+    "care_notes": "Prone to gastric dilatation-volvulus (bloat/torsion); prophylactic gastropexy is frequently recommended."
+  },
+  "Great Pyrenees": {
+    "origin": "France / Spain (Pyrenees Mountains)",
+    "group": "Working",
+    "temperament": "Calm, patient, fearless, nocturnal guardian",
+    "physical_traits": "Weatherproof thick white double coat, dark soulful eyes, double dewclaws on rear legs.",
+    "specialty": "Livestock guardian bred to deter wolves and bears; operates autonomously without human direction, often active at night.",
+    "care_notes": "Deep, booming guardian bark; independent nature makes standard leash obedience training a test of patience."
+  },
+  "Greater Swiss Mountain Dog": {
+    "origin": "Switzerland",
+    "group": "Working",
+    "temperament": "Faithful, steady, protective, gentle",
+    "physical_traits": "Heavy-boned, short dense tricolor coat, broad head, muscular shoulders.",
+    "specialty": "The 'poor man's horse' of Switzerland; excelled in heavy freight hauling, draft work, and livestock driving.",
+    "care_notes": "Slow physical and mental maturation (up to 3 years); vulnerable to bloat and joint wear from excessive early strain."
+  },
+  "Groenendael": {
+    "origin": "Belgium",
+    "group": "Herding",
+    "temperament": "Intelligent, sensitive, protective, alert",
+    "physical_traits": "Solid pitch-black long coat with a prominent collarette around the neck; erect triangular ears.",
+    "specialty": "The black variety of the Belgian Shepherd; excelled as a World War I trench patrol dog, tracking sentry, and tracker.",
+    "care_notes": "Can become overly sensitive if trained with harsh corrections; needs engaging, positive-reinforcement agility work."
+  },
+  "Ibizan Hound": {
+    "origin": "Spain (Balearic Islands)",
+    "group": "Hound (Sighthound)",
+    "temperament": "Polite, playful, aloof, independent",
+    "physical_traits": "Lean chassis, large upright ears, flesh-colored nose and amber eyes, smooth or wire red-and-white coat.",
+    "specialty": "Hunts rabbits using sight, scent, and acute hearing; capable of springing 5 to 6 feet vertically from a dead standstill.",
+    "care_notes": "Very high prey drive; requires exceptionally tall fencing (at least 6 feet) to contain."
+  },
+  "Irish Setter": {
+    "origin": "Ireland",
+    "group": "Sporting",
+    "temperament": "Rambunctious, sweet-natured, playful, energetic",
+    "physical_traits": "Flowing, glossy rich chestnut or mahogany-red coat, lean muzzle, long feathery tail.",
+    "specialty": "Field bird dog known for sweeping, rapid ground hunting; renowned for its show-ring glamour and boundless good cheer.",
+    "care_notes": "Requires substantial aerobic workouts daily to prevent hyperactive or restless home behavior."
+  },
+  "Irish Terrier": {
+    "origin": "Ireland",
+    "group": "Terrier",
+    "temperament": "Courageous, spirited, tender with family, feisty",
+    "physical_traits": "Dense, wiry bright-red coat, racy outline, beard, folded V-shaped ears.",
+    "specialty": "Nicknamed 'the Daredevil'; served with distinction in World War I trenches as heroic messengers amidst artillery fire.",
+    "care_notes": "High dog-on-dog reactivity if unsocialized; strong vermin drive makes secure leashing essential."
+  },
+  "Irish Water Spaniel": {
+    "origin": "Ireland",
+    "group": "Sporting",
+    "temperament": "Inquisitive, clownish, alert, hardworking",
+    "physical_traits": "Crisply curled liver-purple coat, distinctive topknot of loose curls, hairless smooth 'rat tail'.",
+    "specialty": "The tallest spaniel breed; bred to retrieve game from rough, cold Atlantic coastal waters and bogs.",
+    "care_notes": "Low-shedding coat requires regular scissoring and detangling; water-loving and needs regular swimming outlets."
+  },
+  "Irish Wolfhound": {
+    "origin": "Ireland",
+    "group": "Hound (Sighthound)",
+    "temperament": "Calm, dignified, deeply gentle, courageous",
+    "physical_traits": "The tallest of all AKC breeds; rough wiry grey/brindle coat, muscular galloping physique, long curved tail.",
+    "specialty": "Ancient sighthound historically used to hunt down the extinct Irish giant elk and clear the countryside of wolves.",
+    "care_notes": "Heartbreakingly brief lifespan (6–8 years); prone to osteosarcoma, heart disease, and gastric torsion."
+  },
+  "Italian Greyhound": {
+    "origin": "Italy / Mediterranean",
+    "group": "Toy",
+    "temperament": "Sensitive, affectionate, playful, timid",
+    "physical_traits": "Miniature Greyhound silhouette; fragile slender bones, glossy short coat, tucked abdomen.",
+    "specialty": "Renaissance lap companion of European royalty; possesses true double-suspension gallop mechanics reaching speeds over 25 mph.",
+    "care_notes": "Prone to leg fractures from jumping off heights during youth; highly sensitive to cold temperatures and rain."
+  },
+  "Japanese Spaniel": {
+    "origin": "Japan",
+    "group": "Toy",
+    "temperament": "Cat-like, quiet, charming, fastidious",
+    "physical_traits": "Under-jaw undershot bite, feathered tail curved over back, wide-set dark eyes with white visible in corners ('astonished look').",
+    "specialty": "Also known as the Japanese Chin; bred for imperial Japanese palaces; known for the 'Chin spin' (rapid dancing pirouettes).",
+    "care_notes": "Grooms itself with paws like a cat; prone to heat exhaustion and corneal abrasions."
+  },
+  "Keeshond": {
+    "origin": "Netherlands",
+    "group": "Non-Sporting",
+    "temperament": "Affectionate, alert, sociable, gentle",
+    "physical_traits": "Plush silver-and-black coat with lion-like ruff, curled tail, distinct dark 'spectacles' markings around eyes.",
+    "specialty": "Historic watchdog of Dutch canal barges; became the symbol of the Dutch Patriot political party in the 18th century.",
+    "care_notes": "Dense double coat sheds heavily in seasonal cycles; requires thorough undercoat raking without shaving."
+  },
+  "Kelpie": {
+    "origin": "Australia",
+    "group": "Herding",
+    "temperament": "Tireless, workaholic, intensely intelligent, independent",
+    "physical_traits": "Compact, athletic, prick ears, short weather-resistant double coat in black, red, fawn, or chocolate.",
+    "specialty": "Engineered to manage thousands of sheep across blistering Australian outback paddocks; famous for running across the backs of tightly packed sheep.",
+    "care_notes": "Unsuitable as an ordinary apartment pet; requires miles of daily running and complex stock herding work."
+  },
+  "Kerry Blue Terrier": {
+    "origin": "Ireland (County Kerry)",
+    "group": "Terrier",
+    "temperament": "Spirited, clever, devoted, assertive",
+    "physical_traits": "Soft, wavy, non-shedding coat that transitions from jet-black at birth to slate blue-gray by adulthood; full beard.",
+    "specialty": "All-around Irish farm utility dog used for herding cattle, retrieving water birds, and controlling heavy vermin.",
+    "care_notes": "Coat requires dedicated scissor styling; strong prey drive toward strange cats and smaller animals."
+  },
+  "Komondor": {
+    "origin": "Hungary",
+    "group": "Working",
+    "temperament": "Independent, fearless, stoic, deeply protective",
+    "physical_traits": "Large muscular frame covered completely in dense, white, felted cords resembling a floor mop.",
+    "specialty": "Flock guardian that blends invisibly among sheep until wolves or bears attack; cords act as armor against carnivore bites.",
+    "care_notes": "Cords must be washed and separated by hand; drying a fully corded adult coat can take 24–48 hours."
+  },
+  "Kuvasz": {
+    "origin": "Hungary",
+    "group": "Working",
+    "temperament": "Regal, fiercely loyal, patient, suspicious of outsiders",
+    "physical_traits": "Large, dense double coat of wavy pure white or ivory hair, dark almond-shaped eyes, muscular build.",
+    "specialty": "Royal guard canine of King Matthias Corvinus in the 15th century; highly protective guardian of sheep and horses against predators.",
+    "care_notes": "Needs extensive socialization starting in early puppyhood to keep its intense guarding instincts manageable."
+  },
+  "Labrador Retriever": {
+    "origin": "Canada (Newfoundland)",
+    "group": "Sporting",
+    "temperament": "Outgoing, even-tempered, eager to please, loving",
+    "physical_traits": "Dense water-repellent double coat, distinct broad 'otter tail', kind eyes, strong neck and shoulders.",
+    "specialty": "Aided Newfoundland fishermen hauling nets in icy waters; world's leading breed for assistance, service, guide, and detection work.",
+    "care_notes": "Prone to obesity and hip/elbow dysplasia; needs careful calorie management and regular swimming/fetching."
+  },
+  "Lakeland Terrier": {
+    "origin": "United Kingdom (Lake District)",
+    "group": "Terrier",
+    "temperament": "Bold, confident, friendly, feisty",
+    "physical_traits": "Narrow-bodied, harsh wiry coat, folded ears, upright tail; bearded muzzle.",
+    "specialty": "Bred to protect sheep flocks by tracking and pursuing foxes into steep, narrow rocky dens inaccessible to other dogs.",
+    "care_notes": "Wired coat requires hand-stripping; thrives on high-energy play and agility challenges."
+  },
+  "Leonberg": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Gentle, self-assured, friendly, patient",
+    "physical_traits": "Giant size, lion-like mane around neck and chest, black facial mask, water-resistant double coat.",
+    "specialty": "Bred by Heinrich Essig to mimic the lion on the town crest of Leonberg; combines Newfoundland, Saint Bernard, and Great Pyrenees bloodlines.",
+    "care_notes": "Major drooler and shedder; requires huge living spaces and consistent low-impact exercise during growth periods."
+  },
+  "Lhasa": {
+    "origin": "Tibet",
+    "group": "Non-Sporting",
+    "temperament": "Independent, dignified, watchful, affectionate with family",
+    "physical_traits": "Heavy, straight, floor-length parted coat, dark eyes covered by hair, plumed tail carried high over the back.",
+    "specialty": "The 'Bark Lion Sentinel Dog' (Abso Seng Kye) of Tibetan Buddhist monasteries, sounding the alarm if intruders breached the outer gates.",
+    "care_notes": "Coat requires daily combing to prevent mats, or a practical puppy clip; naturally aloof with strangers."
+  },
+  "Malamute": {
+    "origin": "United States (Alaska)",
+    "group": "Working",
+    "temperament": "Affectionate, loyal, powerful, pack-driven",
+    "physical_traits": "Heavy-boned, thick coarse double coat, cap-and-mask face markings, plumed tail carried over spine.",
+    "specialty": "Developed by the Mahlemut Inuit tribe for freighting heavy cargo sleds over extreme Arctic distances (freight train of the north).",
+    "care_notes": "High escape drive; will dig out under fences; howls rather than barks; sheds profusely in seasonal blowouts."
+  },
+  "Malinois": {
+    "origin": "Belgium",
+    "group": "Herding",
+    "temperament": "Hardworking, laser-focused, protective, relentless",
+    "physical_traits": "Fawn to mahogany coat with black tips, black mask and ears, athletic square build.",
+    "specialty": "The preferred breed for modern elite counter-terrorism military units (Navy SEALs) and SWAT teams due to unmatched drive and agility.",
+    "care_notes": "Not suitable for novice dog owners; requires hours of high-intensity operational tasks and daily training."
+  },
+  "Maltese Dog": {
+    "origin": "Malta / Central Mediterranean",
+    "group": "Toy",
+    "temperament": "Playful, gentle, charming, affectionate",
+    "physical_traits": "Pure white, silky, floor-length coat without undercoat, black button nose, dark expressive eyes.",
+    "specialty": "Cherished by ancient Roman, Greek, and Egyptian royalty as the ultimate aristocratic lap companion for millennia.",
+    "care_notes": "Prone to tear staining under the eyes; requires daily coat maintenance to avoid mats."
+  },
+  "Mexican Hairless": {
+    "origin": "Mexico",
+    "group": "Non-Sporting",
+    "temperament": "Calm, thoughtful, loyal, alert",
+    "physical_traits": "Available in Hairless (tough smooth skin) and Coated varieties; large upright ears, almond eyes.",
+    "specialty": "The Xoloitzcuintli was considered a sacred guide of souls to the Aztec underworld (Mictlan); radiates notable surface body heat.",
+    "care_notes": "Hairless skin requires sunscreen in high UV environments and gentle moisturizers to prevent dry skin."
+  },
+  "Miniature Pinscher": {
+    "origin": "Germany",
+    "group": "Toy",
+    "temperament": "Fearless, spirited, energetic, inquisitive",
+    "physical_traits": "Sleek muscular frame, high-stepping 'hackney' gait, smooth short coat in solid red, black-and-rust, or chocolate.",
+    "specialty": "Nicknamed 'King of Toys'; despite looking like a mini Doberman, it is an older independent breed developed to kill barn rats.",
+    "care_notes": "Skilled escape artist; can easily slip through narrow fence gaps; requires secure harness walking."
+  },
+  "Miniature Poodle": {
+    "origin": "Germany / France",
+    "group": "Non-Sporting",
+    "temperament": "Exceptionally smart, eager, athletic, sensitive",
+    "physical_traits": "Hypoallergenic curly dense coat, refined muzzle, square athletic body.",
+    "specialty": "Excels in agility, scent-work, and trick performance; scaled down from the Standard Poodle to hunt truffles across European woodlands.",
+    "care_notes": "Demands professional coat clipping every 4 to 6 weeks; needs regular mental enrichment."
+  },
+  "Miniature Schnauzer": {
+    "origin": "Germany",
+    "group": "Terrier",
+    "temperament": "Spunky, friendly, vocal, trainable",
+    "physical_traits": "Wiry coat in salt-and-pepper, black-and-silver, or solid black; trademark bushy beard and eyebrows.",
+    "specialty": "The only terrier breed with zero British ancestry; bred to patrol German farms and clear out vermin.",
+    "care_notes": "Predisposed to hyperlipidemia and pancreatitis; requires a strictly controlled, low-fat diet."
+  },
+  "Newfoundland": {
+    "origin": "Canada",
+    "group": "Working",
+    "temperament": "Sweet, patient, courageous, gentle",
+    "physical_traits": "Massive frame, water-resistant oily double coat, webbed feet, deep chest.",
+    "specialty": "Lifesaving water rescue dog with lung capacity and strength to pull drowning victims and capsized boats ashore in stormy seas.",
+    "care_notes": "Heavy drooler and shedder; vulnerable to heat stroke and joint dysplasia."
+  },
+  "Norfolk Terrier": {
+    "origin": "United Kingdom",
+    "group": "Terrier",
+    "temperament": "Fearless, gregarious, affectionate, spunky",
+    "physical_traits": "Compact, short-legged, wiry coat, drop ears folded neatly forward.",
+    "specialty": "One of the smallest working terriers; hunted rats in packs and bolted foxes from underground dens; differentiated from the Norwich by dropped ears.",
+    "care_notes": "Needs hand-stripping to preserve coat weather-resistance; strong chase instinct for neighborhood squirrels."
+  },
+  "Norwegian Elkhound": {
+    "origin": "Norway",
+    "group": "Hound (Scenthound/Spitz)",
+    "temperament": "Bold, playful, loyal, vocal",
+    "physical_traits": "Thick silver-gray spitz coat with black tipping, curled tail held tight over back, erect pointed ears.",
+    "specialty": "Viking hound bred to track and hold giant moose (elk) and brown bears at bay using agile footwork and a continuous, barking cadence.",
+    "care_notes": "High barking frequency; sheds undercoat heavily during seasonal transitions."
+  },
+  "Norwich Terrier": {
+    "origin": "United Kingdom",
+    "group": "Terrier",
+    "temperament": "Curious, spirited, loyal, affectionate",
+    "physical_traits": "Compact, wire-haired, short-legged, erect pointed ears ('Norwich prick, Norfolk drop').",
+    "specialty": "Historically popular among Cambridge University students as a fashionable dorm rat-catcher and faithful companion.",
+    "care_notes": "Susceptible to Upper Airway Syndrome (UAS); benefits from hand-stripped grooming."
+  },
+  "Old English Sheepdog": {
+    "origin": "United Kingdom",
+    "group": "Herding",
+    "temperament": "Adaptable, bubbly, gentle, intelligent",
+    "physical_traits": "Profuse shaggy gray-and-white coat covering eyes, tailless or docked ('Bobtail'), distinctive lumbering, bear-like gait.",
+    "specialty": "Drover dog that pushed cattle and sheep from pasture to Smithfield market; historically exempt from dog taxes due to their docked working tails.",
+    "care_notes": "Intensive grooming commitment (multiple hours weekly) to prevent severe matting at the skin level."
+  },
+  "Otterhound": {
+    "origin": "United Kingdom",
+    "group": "Hound (Scenthound)",
+    "temperament": "Amiable, boisterous, independent, inquisitive",
+    "physical_traits": "Large rough-coated hound, webbed feet, oily waterproof coat, long folded ears, deep resonant voice.",
+    "specialty": "Bred to track river otters in fast-flowing currents; one of the rarest breeds in the world with fewer than 1,000 specimens globally.",
+    "care_notes": "Loves muddy water; large beard requires drying after drinking to avoid fungal skin conditions."
+  },
+  "Papillon": {
+    "origin": "France / Belgium",
+    "group": "Toy",
+    "temperament": "Happy, energetic, highly trainable, friendly",
+    "physical_traits": "Wing-like erect fringed ears resembling butterfly wings (papillon is French for butterfly), fine silky coat, plumed tail.",
+    "specialty": "Consistently ranked as the most intelligent toy breed; routinely outperforms larger breeds in international agility and trick trials.",
+    "care_notes": "Delicate leg bones in youth; low-maintenance coat despite its glamorous appearance as it lacks an undercoat."
+  },
+  "Pekinese": {
+    "origin": "China",
+    "group": "Toy",
+    "temperament": "Regal, opinionated, loyal, courageous",
+    "physical_traits": "Lion's mane ruff, flattened face, bowed front legs creating a distinct rolling gait, long feathering.",
+    "specialty": "Sacred lap dog of the Chinese imperial court; according to legend, created by the Buddha shrinking a lion while retaining its brave heart.",
+    "care_notes": "Brachycephalic; strict avoidance of hot environments; facial folds need daily hygienic cleaning."
+  },
+  "Pembroke": {
+    "origin": "Wales (Pembrokeshire)",
+    "group": "Herding",
+    "temperament": "Spirited, smart, affectionate, bold",
+    "physical_traits": "Low-set, pointed prick ears, naturally bobbed or docked tail, foxy face, weather-hardy double coat.",
+    "specialty": "Beloved royal companions of Queen Elizabeth II; works cattle by nipping heels and ducking low under kicking hooves.",
+    "care_notes": "Prone to intervertebral disc disease (IVDD) and obesity; jump heights from sofas or beds must be managed."
+  },
+  "Pomeranian": {
+    "origin": "Northwest Poland / Northeast Germany",
+    "group": "Toy",
+    "temperament": "Extroverted, lively, alert, vocal",
+    "physical_traits": "Fluffy standout double coat, fox-like expression, heavily plumed tail arching flat over the back, tiny prick ears.",
+    "specialty": "Miniaturized from larger Arctic sled dogs (Spitz); championed and popularized across Europe by Queen Victoria.",
+    "care_notes": "Prone to collapsing trachea and luxating patellas; use a harness rather than a neck collar on walks."
+  },
+  "Pug": {
+    "origin": "China",
+    "group": "Toy",
+    "temperament": "Charming, loving, mischievous, calm",
+    "physical_traits": "Square cobby body, deep wrinkles on flat face, curled tail (ideally a double curl), velvety black mask.",
+    "specialty": "Treasured companion of Chinese emperors and later the Dutch House of Orange; celebrated under the motto 'Multum in Parvo' (much in little).",
+    "care_notes": "Prone to heat exhaustion, corneal ulcers, and obesity; facial wrinkles must be kept dry."
+  },
+  "Redbone": {
+    "origin": "United States",
+    "group": "Hound (Scenthound)",
+    "temperament": "Even-tempered, affectionate, tenacious hunter",
+    "physical_traits": "Gleaming solid rich red coat, athletic hound build, soulful pleading eyes, clean jawline.",
+    "specialty": "Bred to tree raccoons, bears, and cougars across Southern swamps and forests; popularized by the classic novel *Where the Red Fern Grows*.",
+    "care_notes": "Needs scent-focused enrichment; possesses a sweet nature indoors but turns single-minded on animal scent trails."
+  },
+  "Rhodesian Ridgeback": {
+    "origin": "Zimbabwe (Rhodesia)",
+    "group": "Hound",
+    "temperament": "Dignified, courageous, quiet, loyal",
+    "physical_traits": "Athletic muscular frame, wheaten color coat, distinct backward-growing ridge of hair along the spine.",
+    "specialty": "Bred to harass, corner, and bay lions for hunters without engaging in direct conflict; highly resistant to heat and tick-borne diseases.",
+    "care_notes": "Strong-willed; requires early guidance and consistent boundaries without harsh handling."
+  },
+  "Rottweiler": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Confident, calm, courageous, loyal",
+    "physical_traits": "Robust, muscular frame, broad skull, black coat with distinct rich rust-mahogany markings.",
+    "specialty": "Descended from Roman drover dogs; pulled butcher carts and guarded money pouches tied to their necks in the market town of Rottweil.",
+    "care_notes": "Needs rigorous early socialization and obedience training; excels at carting, tracking, and protection work."
+  },
+  "Saint Bernard": {
+    "origin": "Switzerland / Italy (Western Alps)",
+    "group": "Working",
+    "temperament": "Patient, gentle, peaceful, devoted",
+    "physical_traits": "Massive head, furrowed brow, dark mask, immense muscular body, smooth or rough dense coat.",
+    "specialty": "Credited with saving over 2,000 travelers stranded in blizzards at the Great St. Bernard Pass hospice over several centuries.",
+    "care_notes": "Heavy drooler; requires cold indoor areas; joints must be protected from heavy impact during rapid early growth."
+  },
+  "Saluki": {
+    "origin": "Middle East / Fertile Crescent",
+    "group": "Hound (Sighthound)",
+    "temperament": "Reserved, gentle, independent, aristocratic",
+    "physical_traits": "Symmetrical, deep-chested, silky feathering on ears and tail, smooth sleek body, remarkable grace.",
+    "specialty": "One of the oldest documented dog breeds, depicted in Egyptian tombs; hunted gazelles across open desert at speeds up to 42 mph.",
+    "care_notes": "Extremely low body fat makes them sensitive to hard sleeping surfaces and anesthesia; high prey drive."
+  },
+  "Samoyed": {
+    "origin": "Northwest Russia / Siberia",
+    "group": "Working",
+    "temperament": "Friendly, gentle, playful, vocal",
+    "physical_traits": "Thick weather-resistant white coat, upturned black lips forming the famous 'Sammy smile', dark almond eyes.",
+    "specialty": "Bred by nomadic Samoyedic reindeer herders to pull sleds, herd reindeer, and sleep directly with family members to provide radiant warmth.",
+    "care_notes": "Upturned mouth corners prevent drool from freezing into icicles on its face; requires daily brushing to prevent mats."
+  },
+  "Schipperke": {
+    "origin": "Belgium",
+    "group": "Non-Sporting",
+    "temperament": "Curious, feisty, tireless, protective",
+    "physical_traits": "Fox-like face, solid black coat with a thick neck ruff and culottes (hind leg hair), naturally tailless or docked.",
+    "specialty": "The 'Little Captain' (Schip = boat) of Flemish canal barges; served as an uncompromising watchdog and ratter on boat decks.",
+    "care_notes": "High energy packed in a small body; known as 'the black devil' due to its curious, mischievous ingenuity."
+  },
+  "Scotch Terrier": {
+    "origin": "Scotland",
+    "group": "Terrier",
+    "temperament": "Independent, dignified, feisty, reserved",
+    "physical_traits": "Short legs, compact muscular body, prominent beard, pointed upright ears, dense wiry outer coat.",
+    "specialty": "Nicknamed 'The Diehard' for fearless perseverance against badgers and foxes; famous White House resident under FDR (Fala).",
+    "care_notes": "Poor swimmers due to heavy bones and short legs; susceptible to 'Scottie Cramp' during periods of high excitement."
+  },
+  "Scottish Deerhound": {
+    "origin": "Scotland",
+    "group": "Hound (Sighthound)",
+    "temperament": "Gentle, polite, quiet, athletic",
+    "physical_traits": "Towering stature, rough weather-hardy gray wiry coat, deep chest, tapering tail.",
+    "specialty": "The royal coursing hound of the Scottish Highlands, specially bred to run down and dispatch 250-pound red deer.",
+    "care_notes": "Calm couch potato indoors, but needs a safe, fenced field to stretch into a full sprint regularly."
+  },
+  "Sealyham Terrier": {
+    "origin": "Wales",
+    "group": "Terrier",
+    "temperament": "Calm, spunky, affectionate, determined",
+    "physical_traits": "Low-slung, sturdy, dense all-white wiry coat, fall of hair covering forehead, strong jaw.",
+    "specialty": "Developed by Captain John Edwardes to dispatch badgers and otters; once Hollywood's favorite breed (Alfred Hitchcock, Cary Grant).",
+    "care_notes": "Much calmer indoors than many other terriers; beard requires frequent washing and drying."
+  },
+  "Shetland Sheepdog": {
+    "origin": "Scotland (Shetland Islands)",
+    "group": "Herding",
+    "temperament": "Bright, responsive, affectionate, vocal",
+    "physical_traits": "Miniature rough Collie silhouette; long wedge-shaped head, semi-pricked ears, rich double coat with heavy mane.",
+    "specialty": "Hardy island herder adapted to manage Shetland sheep, poultry, and miniature livestock in harsh, windy conditions.",
+    "care_notes": "Sensitive to vocal tones; excitable barker that requires early counter-conditioning; carries the MDR1 gene mutation risk."
+  },
+  "Shih-Tzu": {
+    "origin": "China / Tibet",
+    "group": "Toy",
+    "temperament": "Affectionate, happy, outgoing, trusting",
+    "physical_traits": "Flowing double coat, pushed-in nose, warm dark eyes, plumed tail carried neatly over back.",
+    "specialty": "The 'Chrysanthemum Dog' (facial hair grows outwards in all directions like flower petals); exclusively pampered lap dog of Ming and Qing dynasties.",
+    "care_notes": "Heat-sensitive; requires daily topknot grooming or hair clipping to prevent eye irritation."
+  },
+  "Siberian Husky": {
+    "origin": "Siberia (Russia)",
+    "group": "Working",
+    "temperament": "Outgoing, adventurous, vocal, pack-oriented",
+    "physical_traits": "Medium build, striking blue or bi-colored almond eyes, dense double coat, bushy fox-brush tail.",
+    "specialty": "Bred by the Chukchi people for high-speed endurance hauling over frozen tundra; historic hero of the 1925 Nome Serum Run.",
+    "care_notes": "Famous escape artists and howlers; possesses minimal territorial instinct, making them ineffective guard dogs."
+  },
+  "Silky Terrier": {
+    "origin": "Australia",
+    "group": "Toy",
+    "temperament": "Inquisitive, feisty, loving, alert",
+    "physical_traits": "Fine, glossy, parted blue-and-tan coat that does not touch the floor; wedge head, erect V-shaped ears.",
+    "specialty": "Bred in Australia by crossing Yorkshire Terriers with Australian Terriers to create an urban vermin hunter and companion.",
+    "care_notes": "True terrier prey drive despite toy stature; coat requires regular brushing to avoid painful tangles."
+  },
+  "Soft-Coated Wheaten Terrier": {
+    "origin": "Ireland",
+    "group": "Terrier",
+    "temperament": "Enthusiastic, cheerful, friendly, loyal",
+    "physical_traits": "Single coat of soft, wavy, warm wheaten silk; rectangular body, peppy tail carriage.",
+    "specialty": "All-purpose Irish farm dog; famously greets owners with the energetic, full-body 'Wheaten Greetin' leap.",
+    "care_notes": "Prone to protein-losing enteropathy (PLE) and nephropathy (PLN); coat requires daily detangling to prevent matting."
+  },
+  "Staffordshire Bullterrier": {
+    "origin": "United Kingdom",
+    "group": "Terrier",
+    "temperament": "Affectionate, courageous, playful, gentle with humans",
+    "physical_traits": "Short, muscular, broad skull, pronounced cheek muscles, wide chest, smooth tight coat.",
+    "specialty": "Nicknamed the 'Nanny Dog' in Britain for its patient, affectionate, and protective bond with children.",
+    "care_notes": "Requires strong chew toys due to jaw strength; requires early canine socialization to mitigate intra-species friction."
+  },
+  "Standard Poodle": {
+    "origin": "Germany / France",
+    "group": "Non-Sporting",
+    "temperament": "Brilliant, athletic, proud, eager to please",
+    "physical_traits": "Dense curly non-shedding coat, square build, elegant carriage, long straight muzzle.",
+    "specialty": "Originally a water retrieval dog (Pudelhund); the classic show clips were practical cuts to keep joints warm in freezing water while shedding drag.",
+    "care_notes": "Ranks among the smartest breeds; thrives on advanced obedience, duck retrieving, and agility."
+  },
+  "Standard Schnauzer": {
+    "origin": "Germany",
+    "group": "Working",
+    "temperament": "Clever, watchful, reliable, spirited",
+    "physical_traits": "Square, robust build, harsh salt-and-pepper or solid black wiry coat with thick eyebrows and mustache.",
+    "specialty": "The prototype schnauzer depicted in paintings by Rembrandt and Dürer; served as an all-around stable ratter and coach watchdog.",
+    "care_notes": "Highly intelligent with an independent streak; requires mentally challenging training tasks."
+  },
+  "Sussex Spaniel": {
+    "origin": "United Kingdom (Sussex)",
+    "group": "Sporting",
+    "temperament": "Calm, cheerful, deliberate, vocal on trail",
+    "physical_traits": "Low-slung body, massive bone, rich golden-liver coat, wide head with somber expression.",
+    "specialty": "One of the few spaniels that bays ('gives tongue') while tracking hidden game through thick clay and dense underbrush.",
+    "care_notes": "Prone to weight gain; needs moderate, consistent daily exercise and regular ear canal hygiene."
+  },
+  "Tibetan Mastiff": {
+    "origin": "Tibet / Himalayas",
+    "group": "Working",
+    "temperament": "Aloof, noble, fiercely protective, independent",
+    "physical_traits": "Imposing giant frame, massive lion-like mane, deep-set eyes, heavy tail curled over back.",
+    "specialty": "Ancient Himalayan guardian of nomadic camps, livestock, and isolated monasteries; operates with nocturnal vigilance.",
+    "care_notes": "Not a standard domestic companion; fiercely territorial and requires dedicated, experienced handling."
+  },
+  "Tibetan Terrier": {
+    "origin": "Tibet",
+    "group": "Non-Sporting",
+    "temperament": "Affectionate, clever, gentle, sensitive",
+    "physical_traits": "Square body, profuse double coat covering eyes, unique flat wide 'snowshoe' round paws.",
+    "specialty": "The 'Holy Dog of Tibet'; kept as good-luck charms in Buddhist monasteries; unique snowshoe feet provide traction on snowy precipices.",
+    "care_notes": "Not a true terrier; demands careful line-brushing down to the skin several times a week."
+  },
+  "Toy Poodle": {
+    "origin": "France / Germany",
+    "group": "Toy",
+    "temperament": "Smart, lively, companionable, responsive",
+    "physical_traits": "Stands under 10 inches at the shoulder; curly dense coat, light springy gait, dark oval eyes.",
+    "specialty": "Bred down as luxury companions for 18th-century French nobility; retains the full problem-solving intellect of larger poodles.",
+    "care_notes": "Prone to dental tartar accumulation and luxating patellas; requires regular teeth brushing."
+  },
+  "Toy Terrier": {
+    "origin": "United Kingdom",
+    "group": "Toy",
+    "temperament": "Alert, spunky, curious, affectionate",
+    "physical_traits": "Sleek, ebony-black coat with defined chestnut-tan markings, candle-flame ears, delicate arched topline.",
+    "specialty": "The English Toy Terrier (Black & Tan) was engineered to compete in 19th-century Victorian rat-pit gaming contests.",
+    "care_notes": "Sensitive to winter chills; requires sweaters in cold weather and gentle handling around larger pets."
+  },
+  "Vizsla": {
+    "origin": "Hungary",
+    "group": "Sporting",
+    "temperament": "Affectionate, gentle, energetic, sensitive",
+    "physical_traits": "Sleek golden-rust coat, self-colored nose and nails, amber eyes, lean athletic build.",
+    "specialty": "The Hungarian pointer/retriever nicknamed the 'Velcro dog' because it bonds intensely and remains physically attached to its owner's side.",
+    "care_notes": "Requires significant physical endurance exercise daily; develops separation anxiety if left isolated for long stretches."
+  },
+  "Walker Hound": {
+    "origin": "United States",
+    "group": "Hound (Scenthound)",
+    "temperament": "Brave, energetic, friendly, driven",
+    "physical_traits": "Clean, muscular frame, smooth tricolor coat, high-held tail, clear expressive hound eyes.",
+    "specialty": "The Treeing Walker Coonhound is renowned for its blazing trailing speed and ability to tree quarry with a distinctive ringing chop/bay.",
+    "care_notes": "High tracking drive; cannot be trusted off-leash in open areas where it might pick up wild scent trails."
+  },
+  "Weimaraner": {
+    "origin": "Germany (Weimar)",
+    "group": "Sporting",
+    "temperament": "Energetic, alert, fearless, demanding",
+    "physical_traits": "Striking silver-gray coat, light amber or blue-gray eyes, tall sleek aristocratic frame.",
+    "specialty": "The 'Gray Ghost'; bred by the Court of Weimar to hunt big game (bears, cougars, deer); runs with high speed and endurance.",
+    "care_notes": "Can become neurotic and destructive without heavy exercise; strong predatory drive toward smaller household animals."
+  },
+  "Welsh Springer Spaniel": {
+    "origin": "United Kingdom (Wales)",
+    "group": "Sporting",
+    "temperament": "Devoted, lively, affectionate, reserved with strangers",
+    "physical_traits": "Distinctive rich red-and-white coat, smaller vine-leaf shaped ears, compact athletic build.",
+    "specialty": "Ancient gundog bred to flush woodcock and waterfowl across Welsh bogs; handles freezing water and dense brambles.",
+    "care_notes": "More reserved than the English Springer; requires consistent, kind, positive-reinforcement training."
+  },
+  "West Highland White Terrier": {
+    "origin": "Scotland",
+    "group": "Terrier",
+    "temperament": "Independent, cheerful, bold, alert",
+    "physical_traits": "Harsh pure white double coat, dark button eyes and nose, carrot-shaped tail carried erect.",
+    "specialty": "Bred in Poltalloch, Scotland, to hunt badgers and otters; pure white coat was selected so hunters wouldn't mistake the dog for prey.",
+    "care_notes": "Prone to atopic dermatitis and skin allergies; coat requires hand-stripping or regular scissoring."
+  },
+  "Whippet": {
+    "origin": "United Kingdom",
+    "group": "Hound (Sighthound)",
+    "temperament": "Gentle, quiet, affectionate, low-energy indoors",
+    "physical_traits": "Lean, aerodynamic frame, deep chest, narrow waist, fine short coat in various colors.",
+    "specialty": "Nicknamed 'the poor man's racehorse'; capable of reaching speeds up to 35 mph in seconds, followed by hours of sleeping on the couch.",
+    "care_notes": "Very low body fat makes them cold-sensitive; requires soft bedding to prevent pressure sores on joints."
+  },
+  "Wire-Haired Fox Terrier": {
+    "origin": "United Kingdom",
+    "group": "Terrier",
+    "temperament": "Feisty, playful, clever, fearless",
+    "physical_traits": "Dense, wiry, twisted coat in white with black and tan markings; folded V-shaped ears, erect tail.",
+    "specialty": "Engineered to flush foxes that went to ground during traditional British hunts; famous show champion with distinctive chiseled looks.",
+    "care_notes": "Will challenge other dogs regardless of size; requires hand-stripping to keep the coat harsh and colors vibrant."
+  },
+  "Yorkshire Terrier": {
+    "origin": "United Kingdom",
+    "group": "Toy",
+    "temperament": "Spunky, affectionate, confident, vocal",
+    "physical_traits": "Floor-length, fine, silky blue-and-gold coat, compact square frame, erect V-shaped ears.",
+    "specialty": "Developed by Scottish weavers in Yorkshire textile mills to catch rats in tight machinery spaces before becoming a Victorian luxury pet.",
+    "care_notes": "Prone to dental decay and collapsed trachea; show coat requires daily wrapping and brushing, or a low-maintenance puppy cut."
+  }
+}

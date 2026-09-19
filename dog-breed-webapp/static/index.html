@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dog Breed Classifier – AI-Powered Breed Detection</title>
+  <meta name="description" content="Upload a dog photo and get instant AI-powered breed identification with confidence scores. Recognises 120 Stanford Dog breeds." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=4" />
+</head>
+<body>
+
+  <!-- ── Animated background orbs ───────────────────────── -->
+  <div class="bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- ── Header ──────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo" aria-label="Dog Breed Classifier">
+        <span class="logo-icon">🐾</span>
+        <span class="logo-text">BreedVision <span class="logo-badge">AI</span></span>
+      </div>
+      <div class="header-status" id="headerStatus">
+        <span class="status-dot" id="statusDot"></span>
+        <span class="status-label" id="statusLabel">Checking…</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ── Main content ─────────────────────────────────────── -->
+  <main class="main-content">
+    <section class="hero" aria-labelledby="heroTitle">
+      <h1 id="heroTitle" class="hero-title">
+        Identify Any Dog Breed<br />
+        <span class="gradient-text">Instantly with AI</span>
+      </h1>
+      <p class="hero-subtitle">
+        Upload a photo and our MobileNetV2-powered model will identify the top‑3
+        matching breeds from the Stanford Dogs Dataset of 120 species.
+      </p>
+    </section>
+
+    <!-- Upload card -->
+    <div class="card upload-card">
+      <form id="uploadForm" enctype="multipart/form-data" novalidate>
+
+        <!-- Drop zone -->
+        <div
+          id="dropZone"
+          class="drop-zone"
+          role="button"
+          tabindex="0"
+          aria-label="Upload area – click or drag and drop a dog image"
+          aria-describedby="dropZoneHint"
+        >
+          <!-- Idle state -->
+          <div class="drop-idle" id="dropIdle">
+            <div class="upload-icon-wrapper" aria-hidden="true">
+              <svg class="upload-icon" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32 44V20M32 20L22 30M32 20L42 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 48C8.69 46.07 6 42.32 6 38C6 31.37 11.37 26 18 26C18.67 26 19.33 26.07 19.97 26.19C21.75 19.29 28.03 14 35.5 14C44.61 14 52 21.39 52 30.5C52 30.67 52 30.84 51.99 31.01C55.51 32.38 58 35.79 58 39.75C58 43.97 55.18 47.52 51.32 48.7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="drop-title">Drop your dog photo here</p>
+            <p class="drop-hint" id="dropZoneHint">or <span class="drop-link">click to browse</span></p>
+            <p class="drop-formats">JPEG · PNG · WebP · BMP supported</p>
+          </div>
+
+          <!-- Preview state (hidden by default) -->
+          <div class="drop-preview" id="dropPreview" hidden>
+            <img id="previewImg" src="" alt="Uploaded dog image preview" class="preview-image" />
+            <div class="preview-overlay">
+              <button type="button" id="clearBtn" class="clear-btn" aria-label="Remove image">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                  <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+              </button>
+              <span class="preview-label" id="previewLabel">Ready to classify</span>
+            </div>
+          </div>
+
+          <input
+            type="file"
+            id="fileInput"
+            name="file"
+            accept="image/jpeg,image/png,image/webp,image/bmp,image/gif,image/tiff"
+            class="file-input"
+            aria-hidden="true"
+          />
+        </div>
+
+        <!-- Error message -->
+        <div id="errorMsg" class="error-msg" role="alert" hidden></div>
+
+        <!-- Submit button -->
+        <button
+          type="submit"
+          id="classifyBtn"
+          class="classify-btn"
+          disabled
+          aria-disabled="true"
+        >
+          <span class="btn-text">Classify Breed</span>
+          <span class="btn-icon" aria-hidden="true">→</span>
+        </button>
+      </form>
+    </div>
+
+    <!-- Loading overlay (inside a card, shown during inference) -->
+    <div id="loadingCard" class="card loading-card" hidden aria-live="polite" aria-busy="true">
+      <div class="spinner" aria-hidden="true">
+        <div class="spinner-ring"></div>
+        <div class="spinner-paw">🐾</div>
+      </div>
+      <p class="loading-text">Analysing breed…</p>
+      <p class="loading-sub">Running inference on 120 breed classes</p>
+    </div>
+
+    <!-- Results section -->
+    <section id="resultsSection" class="results-section" hidden aria-label="Prediction Results">
+      <div class="results-header">
+        <h2 class="results-title">
+          Top Match: <span id="topBreedName" class="gradient-text"></span>
+        </h2>
+        <p class="results-sub" id="topBreedConf"></p>
+      </div>
+
+      <div id="topBreedInfoBox" class="top-breed-info-box card" hidden></div>
+
+      <div id="breedCards" class="breed-cards" role="list">
+        <!-- Cards injected by JS -->
+      </div>
+
+      <button id="tryAgainBtn" class="try-again-btn" type="button">
+        ↩ Try Another Photo
+      </button>
+    </section>
+  </main>
+
+  <!-- ── Footer ───────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <p>
+      Powered by <strong>TensorFlow</strong> · Stanford Dogs Dataset · 120 breeds
+      &nbsp;|&nbsp; Built with <strong>FastAPI</strong> + Vanilla JS
+    </p>
+  </footer>
+
+  <script src="script.js?v=4"></script>
+</body>
+</html>
